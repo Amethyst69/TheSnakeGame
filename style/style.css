@@ -1,0 +1,44 @@
+body {
+	justify-content: center;
+	background-color: #44475a;
+	margin: 20px;
+}
+
+@font-face {
+  font-family: Franchise;
+  src: url(Franchise.ttf);
+}
+
+canvas {
+	padding: 0;
+    margin: auto;
+    display: block;
+}
+
+div {
+	background-color: #6272a4;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 10px;
+}
+
+h1 {
+	font-family: Franchise;
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#score-labels {
+	padding: 0;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+}
+
+#grid {
+	background-color: #282a36;
+	opacity: 0.8;
+	box-shadow: #000000 20px 10px 40px;
+}
